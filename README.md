@@ -3,13 +3,13 @@ This repository contains the final analysis of a data project developed as part 
 
 The analysis is documented in a single Jupyter Notebook, which describes the complete process, from data exploration to the steps of cleaning and feature selection.
 
-Files in the Repository
+#### Files in the Repository
 
 csv file, notebook.ipynb: Jupyter Notebook containing the final analysis, with all steps of Exploratory Data Analysis (EDA), Data Cleaning, Feature Selection, and Duplicate Handling.
 
 requirements.txt: File containing the list of dependencies needed to run the Jupyter Notebook.
 
-Justifications for the Choices
+### Justifications for the Choices
 1. Exploratory Data Analysis (EDA)
 
 The data exploration was crucial to identify patterns, distributions, and relationships between the variables. Visualizations such as scatter plots, histograms, and correlation heatmaps were used to investigate interactions between the variables and gather initial insights. This process helped identify highly correlated variables, which influenced the selection of features for further analysis.
@@ -26,12 +26,12 @@ To reduce dimensionality and improve model performance (if applicable), the most
 
 Removing duplicates was necessary to ensure data integrity. Duplicate records were identified based on unique identifiers and removed, ensuring the analysis was not distorted by repeated entries.
 
-Visualizations in the Project
+### Visualizations in the Project
 
-Chart 1: Scatter plot showing the relationship between two key variables in the dataset.
+###### Chart 1: Scatter plot showing the relationship between two key variables in the dataset.
 
-Chart 2: Histogram visualizing the distribution of a specific variable.
+###### Chart 2: Histogram visualizing the distribution of a specific variable.
 
-Chart 3: Correlation heatmap used to observe relationships between variables.
+###### Chart 3: Correlation heatmap used to observe relationships between variables.
 
 These visualizations were generated during Exploratory Data Analysis (EDA) and are used to support the decisions made in the following steps.
